@@ -47,3 +47,10 @@ Makefile
 *.dat
 
 .git/
+
+[Bb]in/
+[Oo]bj/
+*.user
+Davidaviciute/
+result_F_*.txt
+*.txt

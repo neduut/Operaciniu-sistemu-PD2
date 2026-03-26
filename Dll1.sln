@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DllSetup", "..\DllSetup\DllSetup.vdproj", "{69C8038E-CBF2-92A0-FCE6-775D407DEBEC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ExeSetup", "..\ExeSetup\ExeSetup.vdproj", "{1218BBEF-A70F-6F20-E85F-64127D730D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,8 +40,19 @@ Global
 		{8C16B6B1-DDCE-4690-8E40-0450D1E0FF85}.Release|x64.Build.0 = Release|x64
 		{8C16B6B1-DDCE-4690-8E40-0450D1E0FF85}.Release|x86.ActiveCfg = Release|Win32
 		{8C16B6B1-DDCE-4690-8E40-0450D1E0FF85}.Release|x86.Build.0 = Release|Win32
+		{69C8038E-CBF2-92A0-FCE6-775D407DEBEC}.Debug|x64.ActiveCfg = Debug
+		{69C8038E-CBF2-92A0-FCE6-775D407DEBEC}.Debug|x86.ActiveCfg = Debug
+		{69C8038E-CBF2-92A0-FCE6-775D407DEBEC}.Release|x64.ActiveCfg = Release
+		{69C8038E-CBF2-92A0-FCE6-775D407DEBEC}.Release|x86.ActiveCfg = Release
+		{1218BBEF-A70F-6F20-E85F-64127D730D27}.Debug|x64.ActiveCfg = Debug
+		{1218BBEF-A70F-6F20-E85F-64127D730D27}.Debug|x86.ActiveCfg = Debug
+		{1218BBEF-A70F-6F20-E85F-64127D730D27}.Release|x64.ActiveCfg = Release
+		{1218BBEF-A70F-6F20-E85F-64127D730D27}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FAE6B61-306F-4754-B997-4E5241F867B9}
 	EndGlobalSection
 EndGlobal
